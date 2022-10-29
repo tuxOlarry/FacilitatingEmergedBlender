@@ -1,0 +1,11 @@
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  .... done!
+[ebuild   R    ] media-gfx/blender-2.93.9:2.93::gentoo  USE="bullet color-management cycles dds embree ffmpeg fftw fluid gmp man nls oidn openexr openimageio openmp opensubdiv openvdb osl pdf potrace pugixml sndfile tbb tiff -alembic -collada (-cuda) -debug -doc -headless -jack -jemalloc -jpeg2k -ndof -openal -opencl -pulseaudio -sdl -test -valgrind" PYTHON_SINGLE_TARGET="python3_10 -python3_9" 0 KiB
+
+Total: 1 package (1 reinstall), Size of downloads: 0 KiB
+
+ * IMPORTANT: 15 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+

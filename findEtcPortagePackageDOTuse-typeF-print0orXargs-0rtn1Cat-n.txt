@@ -1,0 +1,30 @@
+     1	media-sound/mpg123
+     1	net-irc/irssi
+     1	x11-terms/st USE=savedconfig
+     2	# required by media-gfx/blender-2.93.9::gentoo[ffmpeg]
+     3	# required by blender (argument)
+     4	>=media-video/ffmpeg-4.4.2 theora vpx opus xvid x264 mp3 vorbis
+     1	sys-apps/pciutils
+     1	media-gfx/blender USE="X"
+     1	#dwm
+     1	x11-base/xorg-drivers USE="savedconfig"
+     1	# required by media-libs/mesa-22.1.7::gentoo
+     2	# required by media-libs/libepoxy-1.5.10-r1::gentoo[egl]
+     3	# required by x11-libs/gtk+-3.24.34-r1::gentoo
+     4	# required by x11-themes/adwaita-icon-theme-42.0_p2::gentoo
+     5	>=media-libs/libglvnd-1.4.0 X
+     6	# required by x11-base/xorg-server-21.1.4::gentoo[elogind]
+     7	# required by x11-drivers/xf86-input-libinput-1.2.1::gentoo
+     8	# required by x11-base/xorg-drivers-21.1-r1::gentoo[input_devices_libinput]
+     9	>=sys-auth/pambase-20220214 elogind
+    10	# required by x11-libs/gtk+-3.24.34-r1::gentoo
+    11	# required by x11-themes/adwaita-icon-theme-42.0_p2::gentoo
+    12	>=x11-libs/cairo-1.16.0-r6 X
+    13	
+    14	media-libs/firefox
+    15	>=media-libs/libvpx-1.12.0 postproc
+     1	sys-libs/timezone-data
+     2	sys-libs/gpm
+     1	sys-kernel/linux-firmware
+     2	sys-kernel/gentoo-sources
+     3	sys-kernel/dracut
